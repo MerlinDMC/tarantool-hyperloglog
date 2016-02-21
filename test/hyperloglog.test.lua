@@ -1,7 +1,7 @@
 #!/usr/bin/env tarantool
 
 package.path = "../?.lua;../?/init.lua;./?.lua;./?/init.lua"
-package.cpath = "../?.so;../?.dylib;./?.so;./?.dylib"
+package.cpath = "../?.so;../?.dylib;./?.so;./?.dylib;../hyperloglog/?.so;../hyperloglog/?.dylib;./hyperloglog/?.so;./hyperloglog/?.dylib"
 
 local hyperloglog = require('hyperloglog')
 
